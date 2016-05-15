@@ -1,5 +1,5 @@
 BROWSER = 'Chrome'
 
-TIMEOUT = 60
+TIMEOUT = 10
 
 BASE_URL = 'https://simple-chat-asapp.herokuapp.com/'

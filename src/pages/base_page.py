@@ -10,7 +10,7 @@ class Page(object):
 
     def __init__(self, selenium_driver,
                  base_url='https://simple-chat-asapp.herokuapp.com/',
-                 timeout=30):
+                 timeout=10):
         """
         Args:
             selenium_driver (object): selenium webdriver to navigate pages with

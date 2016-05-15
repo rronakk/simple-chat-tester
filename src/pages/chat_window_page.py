@@ -22,8 +22,8 @@ class ChatWindowPage(Page):
         """
         self.click_element(ChatWindowLocators.send_button_loc['send'])
 
-    def get_sender_name(self, message_number):
-        """Get the sender name from the chat-box
+    def get_sender_name_from_chatbox(self, message_number):
+        """Get the sender name from the chat-box window
         Args :
             message_number : sender name for the message order starting from top.
         """
@@ -35,3 +35,18 @@ class ChatWindowPage(Page):
             message_number : Message content for the message order starting from top.
         """
         return self.find_element(ChatWindowLocators.find_chat_box_message_loc(message_number)).text
+
+    def get_sender_name(self):
+        """returns  sender name from chat window
+        """
+        return self.find_element(ChatWindowLocators.chat_user_loc['sender']).text
+
+    def get_recipient_name(self):
+        """returns recipient name from chat window
+        """
+        return self.find_element(ChatWindowLocators.chat_user_loc['sender']).text
+
+    def get_chat_window_title(self):
+        """returns title of chat window
+        """
+        return self.find_element(ChatWindowLocators.header_loc['title']).text

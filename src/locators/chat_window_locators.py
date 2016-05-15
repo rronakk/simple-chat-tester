@@ -15,6 +15,11 @@ class ChatWindowLocators(object):
         'title': (By.CSS_SELECTOR, ".app>h1")
     }
 
+    chat_user_loc = {
+        'sender': (By.CSS_SELECTOR, "span[data-reactid='.0.1.1']"),
+        'recipient': (By.CSS_SELECTOR, "span[data-reactid='.0.1.3']")
+    }
+
     def find_chat_box_message_loc(position):
         """returns locator for chat box message at a particular position
         Args :
