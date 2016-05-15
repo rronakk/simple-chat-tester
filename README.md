@@ -7,7 +7,7 @@ Test framework to test simple-chat
 
 ## <a name="introduction"></a>Introduction: Installation and Dependencies
 
-This T1 UI Automation Framework is compatible with **[python v 3.4+](https://www.python.org/downloads/)+**.
+This simple-chat UI Automation Framework is compatible with **[python v 3.4+](https://www.python.org/downloads/)+**.
 
 This current installation/dependencies assumes an osx/linux environment.
 ***
