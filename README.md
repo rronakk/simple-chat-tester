@@ -60,4 +60,4 @@ Running the tests is straightforward with pytest. For example, I can run all tes
 ```
 py.test --config config.qa_tests_config tests/
 ```
-This command will use the configuration located in the ```config.qa_test_config``` module and recursively search the `tests` directory for all defined tests and run'em! 
+This command will use the configuration located in the ```config.config_qa``` module and recursively search the `tests` directory for all defined tests and run'em! 
